@@ -1,0 +1,246 @@
+
+@import url(https://fonts.googleapis.com/css?family=Rosario);
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+
+* {
+    font-family: Rosario;
+}
+
+html {
+    height: 0px;
+}
+body {
+    padding:0;
+    margin:0;
+}
+.header-background {
+    background-size: cover;
+    background-image: url(Images/header.jpg);
+}
+.header-website {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4.5em;
+    font-weight: lighter;
+    padding-top: 0.6em;
+    padding-bottom: 0.2em;
+    margin: auto;
+}
+.nav {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: lighter;
+    border-top: 1.7px solid rgb(0, 17, 255);
+    border-bottom: 1.7px solid rgb(0, 17, 255);
+}
+.nav a:hover:active {
+    background-color: rgb(4, 72, 199, 0.23);
+    cursor: pointer;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    padding: 0.8em;
+    display: inline-block;
+    color: rgb(4, 72, 199);
+    text-decoration: none;
+    transition: background-color .25s;
+    border-radius: .7em;
+}
+.nav a:hover {
+    background-color: rgb(4, 72, 199, 0.1);
+    border-radius: 0.7em;
+}
+.nav img {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    width: 35px;
+    margin: -0.3em 0.4em;
+}
+.footer {
+    border-top: 2px black solid;
+    background-color: rgb(148, 207, 255);
+}
+.footer li {
+    background-color: white;
+    display: inline;
+    padding-right: 2em;
+    background-color: rgb(148, 207, 255);
+}
+.footer img {
+    padding: 0.4em;
+}
+.footer img:hover {
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 3em;
+}
+.current-index {
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    border-radius: .7em;
+}
+.contact-main {
+    border: 2px black solid;
+    margin: 0 auto;
+    height: 50%;
+    width: 50%;
+    border-radius: 1000em;
+    font-size: 5em;
+    text-align: center;
+    background-image: linear-gradient( white, rgba(103, 207, 255, 0.712));
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.3);
+}
+
+.contact-main div {
+    padding-top: 1em;
+}
+.contact-back {
+    background-image: url(Images/blue_background.png);
+}
+.email-me {
+    text-decoration: none;
+    padding: 0.5em;
+    cursor: pointer;
+    color: rgb(4, 72, 199);
+    margin: auto auto;
+    transition: background-color .3s;
+    border-radius: 1em;
+}
+.email-me:hover {
+    background-color: rgb(4, 72, 199, 0.1);
+    border-radius: 1em;
+}
+.email-me:hover:active {
+    background-color: rgb(4, 72, 199, 0.3);
+    cursor: pointer;
+}
+.inp:focus::placeholder{
+    background: rgb(207, 206, 206);
+    color: rgb(16, 0, 240);
+    font-size: 20px;
+}
+.inp:focus{
+    background: rgb(207, 206, 206);
+    color: rgb(16, 0, 240);
+    font-size: 20px;
+}
+
+
+
+.headshot {
+    border: 3px solid rgb(0, 89, 255);
+    border-radius: 0.5em;
+    width: 25em;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.headshot-text {
+    position: relative;
+    bottom: 215px;
+    left: 100px;
+    font-size: 2.4em;
+    padding: 20px;
+    border: 5px black;
+    border-radius: 0.5em;
+    border-style: double;
+    background-color: rgb(212, 212, 255);
+}
+.border {
+    border: .5px solid black;
+}
+.headshot-background {
+    background-color:rgb(187, 187, 251);
+}
+.home-header {
+    padding-top: 10px;
+    margin: auto;
+    font-size: 3em;
+    width: fit-content;
+}
+.about-me-main {
+    background-color:rgb(135, 206, 235);
+    padding-bottom: 40px;
+}
+.about-me-body {
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    border: 5px double black;
+    padding: 15px;
+    border-radius: .5em;
+    margin-top: 20px;
+    font-size: 1.8em;
+    background-color: rgb(184, 235, 255)
+}
+.education-img {
+    margin-top: 90px;
+    text-align: center;
+}
+.education-img img {
+    width: fit-content;
+    width: 300px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.education-name {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+}
+.education-name span{
+    padding-right: 190px;
+    padding-left: 190px;
+}
+.education-degree {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 2em;
+}
+.education-degree span{
+    padding-right: 135px;
+    padding-left: 217px;
+}
+.education-year {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 2em;
+    padding-bottom: 40px;
+}
+.education-year span{
+    padding-right: 265px;
+    padding-left: 270px;
+}
+.interests {
+    background-color: bisque;
+}
+.interests ul {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    margin: 0;
+}
+.interests ul li {
+    font-size: 2.5em;
+    padding-right: 120px;
+    display: inline;
+}
+.interests ul li:last-child {
+    padding-right: none;
+    position: relative;
+    left: -69px;
+  }
+.interests ul li:nth-last-child(3){
+    padding-right: none;
+    padding-left: 16px;
+  }
+.interests ul li:nth-last-child(2){
+    padding-right: none;
+    position: relative;
+    left: -89px;
+  } 
+.interests ul li:before {
+    content: counter(item, disc) " ";
+    color: rgb(4, 72, 199);
+  }

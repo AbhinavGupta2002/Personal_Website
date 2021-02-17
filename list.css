@@ -1,0 +1,38 @@
+ 
+.list-projects div {
+  margin: 20px;
+}
+ 
+.list-projects ul {
+  list-style-type: none;
+}
+ 
+.list-projects h3 {
+    font: bold;
+    font-size: 2.5em;
+    color: rgb(32, 3, 161);
+}
+ 
+.list-projects li img {
+  float:left;
+  margin: 0 15px 0 0;
+  height: 20em;
+  width: 30em;
+  border: 1px solid;
+  border-radius: 0.6em;
+}
+ 
+.list-projects li p {
+    font-size: 1.5em;
+    width: 1650px;
+}
+ 
+.list-projects li {
+  padding: 10px;
+  overflow: auto;
+  border-bottom: 1.5px solid rgb(4, 72, 199);
+}
+
+.list-projects li:last-child {
+    border-bottom: none;
+}
