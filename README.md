@@ -1,6 +1,7 @@
+# Personal_Website
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/AbhinavGupta2002/AstonHack2021/main/LICENSE)
 
-# Personal_Website
 This is my personal website, built from scratch using various languages. I coded in Visual Studio Code software and transferred the files onto Git Hub.
 HTML5 and CSS5 have been used to develop this website. I am currently learning Javascript by myself so that I can implement that into my website.
 
