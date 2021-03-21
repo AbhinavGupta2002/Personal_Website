@@ -11,6 +11,4 @@ This self developed website is under the MIT License.
 
 This website is a work in progress and is far from being complete.
 
-Developed by Abhinav Gupta.
-
 WEBSITE LINK:  https://abhinavgupta2002.github.io/Personal_Website/
