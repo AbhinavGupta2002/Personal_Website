@@ -11,4 +11,4 @@ NOTE: THIS IS ONLY A DESKTOP VERSION WEBSITE! (at 100% zoom) (not optimized for 
 
 This self developed website is under the MIT License.
 
-This website is a work in progress and is far from being complete.
+NOTE: This website is a work in progress and is far from being complete.
